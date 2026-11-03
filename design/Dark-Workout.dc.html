@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Workout (dark)</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Inter","Segoe UI",sans-serif;color:#F2F4F7;background:#121316}
+</style>
+</helmet>
+<div style="width:390px;height:844px;box-sizing:border-box;padding:56px 22px 0;display:flex;flex-direction:column;gap:18px;background:#121316">
+<div style="display:flex;justify-content:space-between;align-items:center">
+<span style="font-size:14px;font-weight:600;color:#A7E8D2">&larr; Back</span>
+<span style="font-size:13px;color:#9AA0AC">62 min</span>
+</div>
+<div style="display:flex;flex-direction:column;gap:4px">
+<span style="font-size:13px;color:#9AA0AC">Mon, Nov 3 · Push</span>
+<span style="font-size:28px;font-weight:600;letter-spacing:-0.02em">Push day</span>
+</div>
+<div style="border-radius:24px;padding:18px;background:#1C1E23;display:flex;flex-direction:column;gap:14px">
+<div style="display:flex;justify-content:space-between;align-items:center">
+<span style="font-size:17px;font-weight:600">Bench press</span>
+<span style="font-size:12px;font-weight:600;color:#A7E8D2">+5 lb</span>
+</div>
+<div style="display:grid;grid-template-columns:auto 1fr 1fr;gap:10px 14px;font-size:14px;align-items:center">
+<span style="color:#9AA0AC;font-size:11px;font-weight:600">SET</span>
+<span style="color:#9AA0AC;font-size:11px;font-weight:600">KG</span>
+<span style="color:#9AA0AC;font-size:11px;font-weight:600">REPS</span>
+<span style="color:#A7E8D2;font-weight:600">1</span><span style="font-variant-numeric:tabular-nums;font-weight:500">60.0</span><span>8</span>
+<span style="color:#A7E8D2;font-weight:600">2</span><span style="font-variant-numeric:tabular-nums;font-weight:500">62.5</span><span>8</span>
+<span style="color:#A7E8D2;font-weight:600">3</span><span style="font-variant-numeric:tabular-nums;font-weight:500">62.5</span><span>7</span>
+</div>
+<div style="display:flex;gap:10px">
+<span style="font-size:12px;font-weight:500;color:#B9BEC9;background:#2A2D35;padding:8px 12px;border-radius:12px">Start 132.3 lb</span>
+<span style="font-size:12px;font-weight:500;color:#121316;background:#A7E8D2;padding:8px 12px;border-radius:12px">Last 137.8 lb</span>
+</div>
+</div>
+<div style="border-radius:24px;padding:18px;background:#1C1E23;display:flex;flex-direction:column;gap:4px">
+<span style="font-size:12px;font-weight:600;color:#9AA0AC">Incline dumbbell press</span>
+<span style="font-size:14px;color:#B9BEC9">3 sets · 22.5 kg start · 24.0 kg last</span>
+</div>
+<div style="border:1px dashed #3A3E48;border-radius:24px;padding:18px;display:flex;justify-content:center;align-items:center;color:#A7E8D2;font-size:14px;font-weight:600">+ Add exercise</div>
+<div style="margin-top:auto;margin-bottom:36px;display:flex;flex-direction:column;gap:12px">
+<span style="font-size:12px;color:#9AA0AC;text-align:center">Press and hold a set to edit it</span>
+<button style="height:54px;border:0;border-radius:16px;background:#A7E8D2;color:#0F1412;font-size:15px;font-weight:600;cursor:pointer">Finish workout</button>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

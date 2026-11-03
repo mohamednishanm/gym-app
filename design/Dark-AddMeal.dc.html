@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Add meal (dark)</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Inter","Segoe UI",sans-serif;color:#F2F4F7;background:#121316}
+</style>
+</helmet>
+<div style="width:390px;height:844px;box-sizing:border-box;position:relative;background:#121316;overflow:hidden">
+<div style="position:absolute;inset:0;background:rgba(0,0,0,0.55)"></div>
+<div style="position:absolute;left:0;right:0;bottom:0;background:#1C1E23;border-radius:28px 28px 0 0;padding:12px 22px 32px;box-sizing:border-box;display:flex;flex-direction:column;gap:14px">
+<div style="width:44px;height:5px;border-radius:3px;background:#3A3E48;align-self:center"></div>
+<div style="display:flex;justify-content:space-between;align-items:center">
+<span style="font-size:17px;font-weight:600">Add a meal</span>
+<span style="font-size:13px;color:#9AA0AC">Tue, Nov 3</span>
+</div>
+<div style="display:flex;gap:6px">
+<span style="flex:1;text-align:center;font-size:13px;font-weight:600;padding:8px 0;border-radius:999px;background:#A7E8D2;color:#0F1412">Breakfast</span>
+<span style="flex:1;text-align:center;font-size:13px;padding:8px 0;border-radius:999px;background:#2A2D35;color:#B9BEC9">Lunch</span>
+<span style="flex:1;text-align:center;font-size:13px;padding:8px 0;border-radius:999px;background:#2A2D35;color:#B9BEC9">Dinner</span>
+<span style="flex:1;text-align:center;font-size:13px;padding:8px 0;border-radius:999px;background:#2A2D35;color:#B9BEC9">Snack</span>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px">
+<span style="font-size:12px;font-weight:500;color:#9AA0AC">Meal name</span>
+<div style="height:46px;border-radius:12px;background:#2A2D35;display:flex;align-items:center;padding:0 14px;font-size:15px">Greek yogurt bowl</div>
+</div>
+<div style="display:flex;gap:10px">
+<div style="flex:1;display:flex;flex-direction:column;gap:6px">
+<span style="font-size:12px;font-weight:500;color:#9AA0AC">Calories</span>
+<div style="height:46px;border-radius:12px;background:#2A2D35;display:flex;align-items:center;padding:0 14px;font-size:15px">320</div>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:6px">
+<span style="font-size:12px;font-weight:500;color:#9AA0AC">Protein (g)</span>
+<div style="height:46px;border-radius:12px;background:#2A2D35;display:flex;align-items:center;padding:0 14px;font-size:15px">28</div>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:6px">
+<span style="font-size:12px;font-weight:500;color:#9AA0AC">Time</span>
+<div style="height:46px;border-radius:12px;background:#2A2D35;display:flex;align-items:center;padding:0 14px;font-size:15px">08:00</div>
+</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px">
+<span style="font-size:12px;font-weight:500;color:#9AA0AC">Quick picks</span>
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+<span style="font-size:13px;padding:8px 12px;border-radius:999px;background:#2A2D35;color:#B9BEC9">Egg & avocado toast</span>
+<span style="font-size:13px;padding:8px 12px;border-radius:999px;background:#2A2D35;color:#B9BEC9">Tuna & rice wrap</span>
+<span style="font-size:13px;padding:8px 12px;border-radius:999px;background:#2A2D35;color:#B9BEC9">Chicken salad</span>
+</div>
+</div>
+<div style="display:flex;gap:12px;margin-top:4px">
+<button style="flex:1;height:52px;border:0;border-radius:16px;background:#2A2D35;font-size:15px;font-weight:500;color:#B9BEC9;cursor:pointer">Cancel</button>
+<button style="flex:1;height:52px;border:0;border-radius:16px;background:#A7E8D2;color:#0F1412;font-size:15px;font-weight:600;cursor:pointer">Add to plan</button>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
